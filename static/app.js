@@ -7,6 +7,9 @@ var app = new Vue({
 
         server_url = "http://localhost:8080",
     },
+    created: function () {
+        this.getThreads();
+    },
     methods: {
 
     },
