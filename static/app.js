@@ -9,8 +9,7 @@ var app = new Vue({
   created: function () {
     this.getCurrentPrice();
   },
-  methods: {},
-  computed: {
+  methods: {
     getCurrentPrice: function () {
       fetch(this.server_url + "/doge").then(function (response) {
         response.json().then(function (data) {
@@ -20,4 +19,5 @@ var app = new Vue({
       });
     },
   },
+  computed: {},
 });
