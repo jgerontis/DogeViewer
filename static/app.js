@@ -1,6 +1,7 @@
 // vue goes here
 var app = new Vue({
     el: "app",
+    vuetify: new Vuetify(),
     data: {
         
         currentPrice: 0,
