@@ -1,6 +1,7 @@
 <!-- fancy homepage goes here-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Doge Viewer</title>
 </head>
+
 <body>
     <div id="app">
         <v-app>
@@ -21,7 +23,7 @@
                         <v-flex xs7>
                             <v-card>
                                 <v-card-title class="display-1">Doge Coin</v-card-title>
-                                <v-card-text>Article</v-card-text>
+                                <v-card-text>{{ currentPrice }}</v-card-text>
                             </v-card>
                         </v-flex>
                     </v-layout>
@@ -37,4 +39,5 @@
     <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
